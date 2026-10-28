@@ -1,0 +1,14 @@
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;       
+  gap: 10px 10px;        
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.caja {
+  background-color: coral;
+  color: white;
+  padding: 20px;
+  width: 35%;            /* Forzamos a que solo quepan 2 cajas por fila */
+}

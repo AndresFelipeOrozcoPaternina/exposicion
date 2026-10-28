@@ -1,0 +1,27 @@
+.contenedor {
+  display: flex;
+  gap: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.caja {
+  background-color: #2ecc71;
+  color: white;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+
+.caja-1 {
+  order: 1; 
+}
+
+.caja-2 {
+  order: 2; 
+}
+
+.caja-3 {
+  order: 3; 
+}

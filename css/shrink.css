@@ -1,0 +1,28 @@
+.contenedor {
+  display: flex;
+  width: 500px; 
+  background-color: #f0f0f0;
+  padding: 10px;
+  gap: 10px;
+}
+
+.caja {
+  width: 300px; 
+  background-color: #e74c3c;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+
+.caja-1 {
+  flex-shrink: 0; 
+}
+
+.caja-2 {
+  flex-shrink: 2; 
+}
+
+.caja-3 {
+  flex-shrink: 1; 
+}
